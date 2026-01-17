@@ -1,0 +1,6 @@
+services:
+  satellite-monitor:
+    build: .
+    image: satellite-monitor
+    volumes:
+      - ~/.aws:/root/.aws:ro
